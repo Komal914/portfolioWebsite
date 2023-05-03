@@ -11,6 +11,21 @@ body, h1,h2,h3,h4,h5,h6 {
 .w3-sidebar {
     width: 120px;background: #222;
 }
+.card {
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    padding: 100px;
+    border-radius: 25px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    box-shadow: 10px 5px 5px grey;
+}
+
+.card-name {
+    color: black;
+    font-size: 2.0rem;
+}
 /* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
 #main {
     margin-left: 120px
