@@ -27,12 +27,13 @@ body, h1,h2,h3,h4,h5,h6 {
     font-size: 2.0rem;
 }
 /* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
-#main {
-    margin-left: 120px
-}
-#about {
+/* #main {
+    margin-left: 120px;
+    cursor: url('assets/cursor.png'), auto;
+} */
+/* #about {
      cursor: url('assets/cursor.png'), auto;
-}
+} */
 /* Remove margins from "page content" on small screens */
 @media only screen and (max-width: 600px) {
     #main {
